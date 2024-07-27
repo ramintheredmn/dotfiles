@@ -4,6 +4,7 @@
     "spacing": 0,
     "height": 35,
     "modules-left": [
+	"custom/wlogout",
         "custom/logo",
         "wlr/taskbar"
     ],
@@ -44,7 +45,7 @@
         "interval": 5,
         "format": "󰍛 {}%",
         "max-length": 10,
-        "on-click": "kitty --start-as=fullscreen sh -c 'btop'"
+        "on-click": "kitty --start-as=fullscreen sh -c 'htop'"
     },
     "tray": {
         "spacing": 10
@@ -74,9 +75,14 @@
 	    "format-icons": ["", ""]
     },
     "custom/logo": {
-        "format": "  ",
+        "format": "   ",
         "tooltip": false,
         "on-click": "rofi -show drun"
+	},
+    "custom/wlogout": {
+        "format": " 󰿅 ",
+        "tooltip": false,
+        "on-click": "wlogout"
     },
     "battery": {
         "format": "{capacity}% {icon}",
