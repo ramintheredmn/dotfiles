@@ -4,6 +4,7 @@
   font-weight: bold;
   font-size: 12px;
   min-height: 0;
+  opacity: 0.9;
 }
 
 tooltip {
