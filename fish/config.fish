@@ -16,9 +16,10 @@ set CUDA_HOME /opt/cuda
 set PATH $PATH $CUDA_HOME/bin
 alias adgpu ~/AutoDock-GPU/bin/autodock_gpu_64wi
 alias authkon /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+alias tlmgr='$TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
 #set GPU_INCLUDE_PATH $CUDA_HOME/include
 #set GPU_LIBRARY_PATH $CUDA_HOME/lib64
-
+set TEXMFDIST /usr/share/texmf-dist/
 set PATH $PATH ~/Desktop/personal/cheminfo/pymol/bin
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -33,3 +34,5 @@ else
 end
 # <<< conda initialize <<<
 set PATH $PATH ~/Downloads/Telegram/
+source /usr/local/gromacs/bin/GMXRC.fish
+
