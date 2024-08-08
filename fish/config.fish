@@ -16,6 +16,7 @@ set CUDA_HOME /opt/cuda
 set PATH $PATH $CUDA_HOME/bin
 alias adgpu ~/AutoDock-GPU/bin/autodock_gpu_64wi
 alias authkon /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+alias hovercraft="~/hovervenv/bin/python ~/hovervenv/bin/hovercraft"
 alias tlmgr='$TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
 #set GPU_INCLUDE_PATH $CUDA_HOME/include
 #set GPU_LIBRARY_PATH $CUDA_HOME/lib64
