@@ -22,6 +22,7 @@ alias tlmgr='$TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
 #set GPU_LIBRARY_PATH $CUDA_HOME/lib64
 set TEXMFDIST /usr/share/texmf-dist/
 set PATH $PATH ~/Desktop/personal/cheminfo/pymol/bin
+set PATH $PATH /home/ramin/.juliaup/bin
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /home/ramin/miniconda3/bin/conda
