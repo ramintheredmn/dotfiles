@@ -62,7 +62,8 @@
     "clock": {
         "tooltip-format": "{calendar}",
         "format-alt": "  {:%a, %d %b %Y}",
-        "format": "  {:%I:%M %p}"
+        "format": "  {:%I:%M %p}",
+	"timezone": "Asia/Tehran"
     },
     "network": {
         "format-wifi" : "{icon}",
